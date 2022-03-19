@@ -83,7 +83,7 @@ const EditorPage = () => {
         <button className="btn copyBtn">Copy ROOM ID</button>
         <button className="btn leaveBtn">Leave</button>
       </div>
-      <Editor />
+      <Editor socketRef={socketRef} roomId={roomId} />
     </div>
   );
 };
